@@ -1,0 +1,10 @@
+C:\Users\Diogo\source\repos\LedControlApp\LedControlApp\bin\Debug\LedControlApp.exe.config
+C:\Users\Diogo\source\repos\LedControlApp\LedControlApp\bin\Debug\LedControlApp.exe
+C:\Users\Diogo\source\repos\LedControlApp\LedControlApp\bin\Debug\LedControlApp.pdb
+C:\Users\Diogo\source\repos\LedControlApp\LedControlApp\obj\Debug\LedControlApp.csprojAssemblyReference.cache
+C:\Users\Diogo\source\repos\LedControlApp\LedControlApp\obj\Debug\LedControlApp.Form1.resources
+C:\Users\Diogo\source\repos\LedControlApp\LedControlApp\obj\Debug\LedControlApp.Properties.Resources.resources
+C:\Users\Diogo\source\repos\LedControlApp\LedControlApp\obj\Debug\LedControlApp.csproj.GenerateResource.cache
+C:\Users\Diogo\source\repos\LedControlApp\LedControlApp\obj\Debug\LedControlApp.csproj.CoreCompileInputs.cache
+C:\Users\Diogo\source\repos\LedControlApp\LedControlApp\obj\Debug\LedControlApp.exe
+C:\Users\Diogo\source\repos\LedControlApp\LedControlApp\obj\Debug\LedControlApp.pdb
