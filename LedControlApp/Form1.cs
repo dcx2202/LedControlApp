@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,11 +15,13 @@ namespace LedControlApp
     {
         private const int cGrip = 16;
         private const int cCaption = 56;
+        private Color selectedColor;
 
         public Form1()
         {
             InitializeComponent();
             this.SetStyle(ControlStyles.ResizeRedraw, true);
+            selectedColor = Color.FromArgb(255, 255, 255);
         }
 
         protected override void OnPaint(PaintEventArgs e)
@@ -61,6 +64,19 @@ namespace LedControlApp
         private void OnOkButton(object sender, EventArgs e)
         {
 
+        }
+
+        private void mouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                //selectedColor = ColorUnderCursor.CursorColor.Get();
+            }
+        }
+
+        private void OnColorWheel(object sender, EventArgs e)
+        {
+            selectedColor = ColorUnderCursor.CursorColor.Get();
         }
     }
 }
