@@ -226,5 +226,122 @@ namespace LedControlApp
         {
             selectedColor = ColorUnderCursor.CursorColor.Get();
         }
+
+        #region ledstrip led buttons
+        private void led1Button_Hover(object sender, EventArgs e)
+        {
+            led1Button.BackColor = selectedColor;
+        }
+
+        private void led2Button_Hover(object sender, EventArgs e)
+        {
+            led2Button.BackColor = selectedColor;
+        }
+
+        private void led3Button_Hover(object sender, EventArgs e)
+        {
+            led3Button.BackColor = selectedColor;
+        }
+
+        private void led4Button_Hover(object sender, EventArgs e)
+        {
+            led4Button.BackColor = selectedColor;
+        }
+
+        private void led5Button_Hover(object sender, EventArgs e)
+        {
+            led5Button.BackColor = selectedColor;
+        }
+
+        private void led6Button_Hover(object sender, EventArgs e)
+        {
+            led6Button.BackColor = selectedColor;
+        }
+
+        private void led7Button_Hover(object sender, EventArgs e)
+        {
+            led7Button.BackColor = selectedColor;
+        }
+
+        private void led8Button_Hover(object sender, EventArgs e)
+        {
+            led8Button.BackColor = selectedColor;
+        }
+
+        private void led9Button_Hover(object sender, EventArgs e)
+        {
+            led9Button.BackColor = selectedColor;
+        }
+
+        private void led10Button_Hover(object sender, EventArgs e)
+        {
+            led10Button.BackColor = selectedColor;
+        }
+
+        private void led11Button_Hover(object sender, EventArgs e)
+        {
+            led11Button.BackColor = selectedColor;
+        }
+
+        private void led12Button_Hover(object sender, EventArgs e)
+        {
+            led12Button.BackColor = selectedColor;
+        }
+
+        private void led13Button_Hover(object sender, EventArgs e)
+        {
+            led13Button.BackColor = selectedColor;
+        }
+
+        private void led14Button_Hover(object sender, EventArgs e)
+        {
+            led14Button.BackColor = selectedColor;
+        }
+
+        private void led15Button_Hover(object sender, EventArgs e)
+        {
+            led15Button.BackColor = selectedColor;
+        }
+
+        private void led16Button_Hover(object sender, EventArgs e)
+        {
+            led16Button.BackColor = selectedColor;
+        }
+
+        private void led17Button_Hover(object sender, EventArgs e)
+        {
+            led17Button.BackColor = selectedColor;
+        }
+
+        private void led18Button_Hover(object sender, EventArgs e)
+        {
+            led18Button.BackColor = selectedColor;
+        }
+
+        private void led19Button_Hover(object sender, EventArgs e)
+        {
+            led19Button.BackColor = selectedColor;
+        }
+
+        private void led20Button_Hover(object sender, EventArgs e)
+        {
+            led20Button.BackColor = selectedColor;
+        }
+
+        private void led21Button_Hover(object sender, EventArgs e)
+        {
+            led21Button.BackColor = selectedColor;
+        }
+
+        private void led22Button_Hover(object sender, EventArgs e)
+        {
+            led22Button.BackColor = selectedColor;
+        }
+
+        private void led23Button_Hover(object sender, EventArgs e)
+        {
+            led23Button.BackColor = selectedColor;
+        }
+        #endregion
     }
 }

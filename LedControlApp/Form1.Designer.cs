@@ -39,6 +39,7 @@
             this.tab2 = new System.Windows.Forms.Button();
             this.tab1 = new System.Windows.Forms.Button();
             this.panelSecretaria = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button15 = new System.Windows.Forms.Button();
             this.clearButton = new System.Windows.Forms.Button();
             this.speedButton = new System.Windows.Forms.Button();
@@ -49,40 +50,39 @@
             this.reactiveButton = new System.Windows.Forms.Button();
             this.rainbowButton = new System.Windows.Forms.Button();
             this.breathingButton = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.okButton = new System.Windows.Forms.Button();
             this.ledstripPanel = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.led23Button = new System.Windows.Forms.Button();
+            this.led19Button = new System.Windows.Forms.Button();
+            this.led22Button = new System.Windows.Forms.Button();
+            this.led18Button = new System.Windows.Forms.Button();
+            this.led21Button = new System.Windows.Forms.Button();
+            this.led17Button = new System.Windows.Forms.Button();
+            this.led20Button = new System.Windows.Forms.Button();
+            this.led16Button = new System.Windows.Forms.Button();
+            this.led15Button = new System.Windows.Forms.Button();
+            this.led14Button = new System.Windows.Forms.Button();
+            this.led13Button = new System.Windows.Forms.Button();
+            this.led12Button = new System.Windows.Forms.Button();
+            this.led11Button = new System.Windows.Forms.Button();
+            this.led7Button = new System.Windows.Forms.Button();
+            this.led10Button = new System.Windows.Forms.Button();
+            this.led6Button = new System.Windows.Forms.Button();
+            this.led9Button = new System.Windows.Forms.Button();
+            this.led5Button = new System.Windows.Forms.Button();
+            this.led8Button = new System.Windows.Forms.Button();
+            this.led4Button = new System.Windows.Forms.Button();
+            this.led3Button = new System.Windows.Forms.Button();
+            this.led2Button = new System.Windows.Forms.Button();
+            this.led1Button = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panelSecretaria.SuspendLayout();
-            this.ledstripPanel.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.ledstripPanel.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // closeButton
@@ -255,6 +255,20 @@
             this.panelSecretaria.Size = new System.Drawing.Size(631, 324);
             this.panelSecretaria.TabIndex = 16;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(376, 266);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(255, 54);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 27;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.OnGrayScaleClick);
+            // 
             // button15
             // 
             this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
@@ -403,6 +417,20 @@
             this.breathingButton.UseVisualStyleBackColor = false;
             this.breathingButton.Click += new System.EventHandler(this.OnBreathingButtonClick);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(376, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(255, 260);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.OnColorWheel);
+            // 
             // okButton
             // 
             this.okButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -433,337 +461,332 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.panel2.Controls.Add(this.button22);
-            this.panel2.Controls.Add(this.button23);
-            this.panel2.Controls.Add(this.button24);
-            this.panel2.Controls.Add(this.button25);
-            this.panel2.Controls.Add(this.button26);
-            this.panel2.Controls.Add(this.button27);
-            this.panel2.Controls.Add(this.button28);
-            this.panel2.Controls.Add(this.button29);
-            this.panel2.Controls.Add(this.button30);
-            this.panel2.Controls.Add(this.button31);
-            this.panel2.Controls.Add(this.button32);
-            this.panel2.Controls.Add(this.button33);
-            this.panel2.Controls.Add(this.button18);
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.button19);
-            this.panel2.Controls.Add(this.button5);
-            this.panel2.Controls.Add(this.button20);
-            this.panel2.Controls.Add(this.button16);
-            this.panel2.Controls.Add(this.button21);
-            this.panel2.Controls.Add(this.button17);
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.led23Button);
+            this.panel2.Controls.Add(this.led19Button);
+            this.panel2.Controls.Add(this.led22Button);
+            this.panel2.Controls.Add(this.led18Button);
+            this.panel2.Controls.Add(this.led21Button);
+            this.panel2.Controls.Add(this.led17Button);
+            this.panel2.Controls.Add(this.led20Button);
+            this.panel2.Controls.Add(this.led16Button);
+            this.panel2.Controls.Add(this.led15Button);
+            this.panel2.Controls.Add(this.led14Button);
+            this.panel2.Controls.Add(this.led13Button);
+            this.panel2.Controls.Add(this.led12Button);
+            this.panel2.Controls.Add(this.led11Button);
+            this.panel2.Controls.Add(this.led7Button);
+            this.panel2.Controls.Add(this.led10Button);
+            this.panel2.Controls.Add(this.led6Button);
+            this.panel2.Controls.Add(this.led9Button);
+            this.panel2.Controls.Add(this.led5Button);
+            this.panel2.Controls.Add(this.led8Button);
+            this.panel2.Controls.Add(this.led4Button);
+            this.panel2.Controls.Add(this.led3Button);
+            this.panel2.Controls.Add(this.led2Button);
+            this.panel2.Controls.Add(this.led1Button);
             this.panel2.Location = new System.Drawing.Point(0, 60);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(631, 28);
             this.panel2.TabIndex = 0;
             // 
-            // button22
+            // led23Button
             // 
-            this.button22.BackColor = System.Drawing.Color.Red;
-            this.button22.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button22.FlatAppearance.BorderSize = 2;
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Location = new System.Drawing.Point(590, 4);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(20, 21);
-            this.button22.TabIndex = 37;
-            this.button22.UseVisualStyleBackColor = false;
+            this.led23Button.BackColor = System.Drawing.Color.Red;
+            this.led23Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led23Button.FlatAppearance.BorderSize = 2;
+            this.led23Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led23Button.Location = new System.Drawing.Point(590, 4);
+            this.led23Button.Name = "led23Button";
+            this.led23Button.Size = new System.Drawing.Size(20, 21);
+            this.led23Button.TabIndex = 37;
+            this.led23Button.UseVisualStyleBackColor = false;
+            this.led23Button.MouseEnter += new System.EventHandler(this.led23Button_Hover);
             // 
-            // button23
+            // led19Button
             // 
-            this.button23.BackColor = System.Drawing.Color.Red;
-            this.button23.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button23.FlatAppearance.BorderSize = 2;
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Location = new System.Drawing.Point(486, 4);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(20, 21);
-            this.button23.TabIndex = 38;
-            this.button23.UseVisualStyleBackColor = false;
+            this.led19Button.BackColor = System.Drawing.Color.Red;
+            this.led19Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led19Button.FlatAppearance.BorderSize = 2;
+            this.led19Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led19Button.Location = new System.Drawing.Point(486, 4);
+            this.led19Button.Name = "led19Button";
+            this.led19Button.Size = new System.Drawing.Size(20, 21);
+            this.led19Button.TabIndex = 38;
+            this.led19Button.UseVisualStyleBackColor = false;
+            this.led19Button.MouseEnter += new System.EventHandler(this.led19Button_Hover);
             // 
-            // button24
+            // led22Button
             // 
-            this.button24.BackColor = System.Drawing.Color.Red;
-            this.button24.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button24.FlatAppearance.BorderSize = 2;
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Location = new System.Drawing.Point(564, 4);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(20, 21);
-            this.button24.TabIndex = 35;
-            this.button24.UseVisualStyleBackColor = false;
+            this.led22Button.BackColor = System.Drawing.Color.Red;
+            this.led22Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led22Button.FlatAppearance.BorderSize = 2;
+            this.led22Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led22Button.Location = new System.Drawing.Point(564, 4);
+            this.led22Button.Name = "led22Button";
+            this.led22Button.Size = new System.Drawing.Size(20, 21);
+            this.led22Button.TabIndex = 35;
+            this.led22Button.UseVisualStyleBackColor = false;
+            this.led22Button.MouseEnter += new System.EventHandler(this.led22Button_Hover);
             // 
-            // button25
+            // led18Button
             // 
-            this.button25.BackColor = System.Drawing.Color.Red;
-            this.button25.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button25.FlatAppearance.BorderSize = 2;
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.Location = new System.Drawing.Point(460, 4);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(20, 21);
-            this.button25.TabIndex = 36;
-            this.button25.UseVisualStyleBackColor = false;
+            this.led18Button.BackColor = System.Drawing.Color.Red;
+            this.led18Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led18Button.FlatAppearance.BorderSize = 2;
+            this.led18Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led18Button.Location = new System.Drawing.Point(460, 4);
+            this.led18Button.Name = "led18Button";
+            this.led18Button.Size = new System.Drawing.Size(20, 21);
+            this.led18Button.TabIndex = 36;
+            this.led18Button.UseVisualStyleBackColor = false;
+            this.led18Button.MouseEnter += new System.EventHandler(this.led18Button_Hover);
             // 
-            // button26
+            // led21Button
             // 
-            this.button26.BackColor = System.Drawing.Color.Red;
-            this.button26.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button26.FlatAppearance.BorderSize = 2;
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.Location = new System.Drawing.Point(538, 4);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(20, 21);
-            this.button26.TabIndex = 33;
-            this.button26.UseVisualStyleBackColor = false;
+            this.led21Button.BackColor = System.Drawing.Color.Red;
+            this.led21Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led21Button.FlatAppearance.BorderSize = 2;
+            this.led21Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led21Button.Location = new System.Drawing.Point(538, 4);
+            this.led21Button.Name = "led21Button";
+            this.led21Button.Size = new System.Drawing.Size(20, 21);
+            this.led21Button.TabIndex = 33;
+            this.led21Button.UseVisualStyleBackColor = false;
+            this.led21Button.MouseEnter += new System.EventHandler(this.led21Button_Hover);
             // 
-            // button27
+            // led17Button
             // 
-            this.button27.BackColor = System.Drawing.Color.Red;
-            this.button27.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button27.FlatAppearance.BorderSize = 2;
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.Location = new System.Drawing.Point(434, 4);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(20, 21);
-            this.button27.TabIndex = 34;
-            this.button27.UseVisualStyleBackColor = false;
+            this.led17Button.BackColor = System.Drawing.Color.Red;
+            this.led17Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led17Button.FlatAppearance.BorderSize = 2;
+            this.led17Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led17Button.Location = new System.Drawing.Point(434, 4);
+            this.led17Button.Name = "led17Button";
+            this.led17Button.Size = new System.Drawing.Size(20, 21);
+            this.led17Button.TabIndex = 34;
+            this.led17Button.UseVisualStyleBackColor = false;
+            this.led17Button.MouseEnter += new System.EventHandler(this.led17Button_Hover);
             // 
-            // button28
+            // led20Button
             // 
-            this.button28.BackColor = System.Drawing.Color.Red;
-            this.button28.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button28.FlatAppearance.BorderSize = 2;
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Location = new System.Drawing.Point(512, 4);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(20, 21);
-            this.button28.TabIndex = 31;
-            this.button28.UseVisualStyleBackColor = false;
+            this.led20Button.BackColor = System.Drawing.Color.Red;
+            this.led20Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led20Button.FlatAppearance.BorderSize = 2;
+            this.led20Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led20Button.Location = new System.Drawing.Point(512, 4);
+            this.led20Button.Name = "led20Button";
+            this.led20Button.Size = new System.Drawing.Size(20, 21);
+            this.led20Button.TabIndex = 31;
+            this.led20Button.UseVisualStyleBackColor = false;
+            this.led20Button.MouseEnter += new System.EventHandler(this.led20Button_Hover);
             // 
-            // button29
+            // led16Button
             // 
-            this.button29.BackColor = System.Drawing.Color.Red;
-            this.button29.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button29.FlatAppearance.BorderSize = 2;
-            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button29.Location = new System.Drawing.Point(408, 4);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(20, 21);
-            this.button29.TabIndex = 32;
-            this.button29.UseVisualStyleBackColor = false;
+            this.led16Button.BackColor = System.Drawing.Color.Red;
+            this.led16Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led16Button.FlatAppearance.BorderSize = 2;
+            this.led16Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led16Button.Location = new System.Drawing.Point(408, 4);
+            this.led16Button.Name = "led16Button";
+            this.led16Button.Size = new System.Drawing.Size(20, 21);
+            this.led16Button.TabIndex = 32;
+            this.led16Button.UseVisualStyleBackColor = false;
+            this.led16Button.MouseEnter += new System.EventHandler(this.led16Button_Hover);
             // 
-            // button30
+            // led15Button
             // 
-            this.button30.BackColor = System.Drawing.Color.Red;
-            this.button30.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button30.FlatAppearance.BorderSize = 2;
-            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button30.Location = new System.Drawing.Point(382, 4);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(20, 21);
-            this.button30.TabIndex = 30;
-            this.button30.UseVisualStyleBackColor = false;
+            this.led15Button.BackColor = System.Drawing.Color.Red;
+            this.led15Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led15Button.FlatAppearance.BorderSize = 2;
+            this.led15Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led15Button.Location = new System.Drawing.Point(382, 4);
+            this.led15Button.Name = "led15Button";
+            this.led15Button.Size = new System.Drawing.Size(20, 21);
+            this.led15Button.TabIndex = 30;
+            this.led15Button.UseVisualStyleBackColor = false;
+            this.led15Button.MouseEnter += new System.EventHandler(this.led15Button_Hover);
             // 
-            // button31
+            // led14Button
             // 
-            this.button31.BackColor = System.Drawing.Color.Red;
-            this.button31.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button31.FlatAppearance.BorderSize = 2;
-            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button31.Location = new System.Drawing.Point(356, 4);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(20, 21);
-            this.button31.TabIndex = 29;
-            this.button31.UseVisualStyleBackColor = false;
+            this.led14Button.BackColor = System.Drawing.Color.Red;
+            this.led14Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led14Button.FlatAppearance.BorderSize = 2;
+            this.led14Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led14Button.Location = new System.Drawing.Point(356, 4);
+            this.led14Button.Name = "led14Button";
+            this.led14Button.Size = new System.Drawing.Size(20, 21);
+            this.led14Button.TabIndex = 29;
+            this.led14Button.UseVisualStyleBackColor = false;
+            this.led14Button.MouseEnter += new System.EventHandler(this.led14Button_Hover);
             // 
-            // button32
+            // led13Button
             // 
-            this.button32.BackColor = System.Drawing.Color.Red;
-            this.button32.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button32.FlatAppearance.BorderSize = 2;
-            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button32.Location = new System.Drawing.Point(330, 4);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(20, 21);
-            this.button32.TabIndex = 28;
-            this.button32.UseVisualStyleBackColor = false;
+            this.led13Button.BackColor = System.Drawing.Color.Red;
+            this.led13Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led13Button.FlatAppearance.BorderSize = 2;
+            this.led13Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led13Button.Location = new System.Drawing.Point(330, 4);
+            this.led13Button.Name = "led13Button";
+            this.led13Button.Size = new System.Drawing.Size(20, 21);
+            this.led13Button.TabIndex = 28;
+            this.led13Button.UseVisualStyleBackColor = false;
+            this.led13Button.MouseEnter += new System.EventHandler(this.led13Button_Hover);
             // 
-            // button33
+            // led12Button
             // 
-            this.button33.BackColor = System.Drawing.Color.Red;
-            this.button33.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button33.FlatAppearance.BorderSize = 2;
-            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button33.Location = new System.Drawing.Point(304, 4);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(20, 21);
-            this.button33.TabIndex = 27;
-            this.button33.UseVisualStyleBackColor = false;
+            this.led12Button.BackColor = System.Drawing.Color.Red;
+            this.led12Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led12Button.FlatAppearance.BorderSize = 2;
+            this.led12Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led12Button.Location = new System.Drawing.Point(304, 4);
+            this.led12Button.Name = "led12Button";
+            this.led12Button.Size = new System.Drawing.Size(20, 21);
+            this.led12Button.TabIndex = 27;
+            this.led12Button.UseVisualStyleBackColor = false;
+            this.led12Button.MouseEnter += new System.EventHandler(this.led12Button_Hover);
             // 
-            // button18
+            // led11Button
             // 
-            this.button18.BackColor = System.Drawing.Color.Red;
-            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button18.FlatAppearance.BorderSize = 2;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Location = new System.Drawing.Point(278, 4);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(20, 21);
-            this.button18.TabIndex = 26;
-            this.button18.UseVisualStyleBackColor = false;
+            this.led11Button.BackColor = System.Drawing.Color.Red;
+            this.led11Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led11Button.FlatAppearance.BorderSize = 2;
+            this.led11Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led11Button.Location = new System.Drawing.Point(278, 4);
+            this.led11Button.Name = "led11Button";
+            this.led11Button.Size = new System.Drawing.Size(20, 21);
+            this.led11Button.TabIndex = 26;
+            this.led11Button.UseVisualStyleBackColor = false;
+            this.led11Button.MouseEnter += new System.EventHandler(this.led11Button_Hover);
             // 
-            // button4
+            // led7Button
             // 
-            this.button4.BackColor = System.Drawing.Color.Red;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button4.FlatAppearance.BorderSize = 2;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(174, 4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(20, 21);
-            this.button4.TabIndex = 26;
-            this.button4.UseVisualStyleBackColor = false;
+            this.led7Button.BackColor = System.Drawing.Color.Red;
+            this.led7Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led7Button.FlatAppearance.BorderSize = 2;
+            this.led7Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led7Button.Location = new System.Drawing.Point(174, 4);
+            this.led7Button.Name = "led7Button";
+            this.led7Button.Size = new System.Drawing.Size(20, 21);
+            this.led7Button.TabIndex = 26;
+            this.led7Button.UseVisualStyleBackColor = false;
+            this.led7Button.MouseEnter += new System.EventHandler(this.led7Button_Hover);
             // 
-            // button19
+            // led10Button
             // 
-            this.button19.BackColor = System.Drawing.Color.Red;
-            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button19.FlatAppearance.BorderSize = 2;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Location = new System.Drawing.Point(252, 4);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(20, 21);
-            this.button19.TabIndex = 25;
-            this.button19.UseVisualStyleBackColor = false;
+            this.led10Button.BackColor = System.Drawing.Color.Red;
+            this.led10Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led10Button.FlatAppearance.BorderSize = 2;
+            this.led10Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led10Button.Location = new System.Drawing.Point(252, 4);
+            this.led10Button.Name = "led10Button";
+            this.led10Button.Size = new System.Drawing.Size(20, 21);
+            this.led10Button.TabIndex = 25;
+            this.led10Button.UseVisualStyleBackColor = false;
+            this.led10Button.MouseEnter += new System.EventHandler(this.led10Button_Hover);
             // 
-            // button5
+            // led6Button
             // 
-            this.button5.BackColor = System.Drawing.Color.Red;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button5.FlatAppearance.BorderSize = 2;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(148, 4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(20, 21);
-            this.button5.TabIndex = 25;
-            this.button5.UseVisualStyleBackColor = false;
+            this.led6Button.BackColor = System.Drawing.Color.Red;
+            this.led6Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led6Button.FlatAppearance.BorderSize = 2;
+            this.led6Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led6Button.Location = new System.Drawing.Point(148, 4);
+            this.led6Button.Name = "led6Button";
+            this.led6Button.Size = new System.Drawing.Size(20, 21);
+            this.led6Button.TabIndex = 25;
+            this.led6Button.UseVisualStyleBackColor = false;
+            this.led6Button.MouseEnter += new System.EventHandler(this.led6Button_Hover);
             // 
-            // button20
+            // led9Button
             // 
-            this.button20.BackColor = System.Drawing.Color.Red;
-            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button20.FlatAppearance.BorderSize = 2;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Location = new System.Drawing.Point(226, 4);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(20, 21);
-            this.button20.TabIndex = 24;
-            this.button20.UseVisualStyleBackColor = false;
+            this.led9Button.BackColor = System.Drawing.Color.Red;
+            this.led9Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led9Button.FlatAppearance.BorderSize = 2;
+            this.led9Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led9Button.Location = new System.Drawing.Point(226, 4);
+            this.led9Button.Name = "led9Button";
+            this.led9Button.Size = new System.Drawing.Size(20, 21);
+            this.led9Button.TabIndex = 24;
+            this.led9Button.UseVisualStyleBackColor = false;
+            this.led9Button.MouseEnter += new System.EventHandler(this.led9Button_Hover);
             // 
-            // button16
+            // led5Button
             // 
-            this.button16.BackColor = System.Drawing.Color.Red;
-            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button16.FlatAppearance.BorderSize = 2;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Location = new System.Drawing.Point(122, 4);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(20, 21);
-            this.button16.TabIndex = 24;
-            this.button16.UseVisualStyleBackColor = false;
+            this.led5Button.BackColor = System.Drawing.Color.Red;
+            this.led5Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led5Button.FlatAppearance.BorderSize = 2;
+            this.led5Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led5Button.Location = new System.Drawing.Point(122, 4);
+            this.led5Button.Name = "led5Button";
+            this.led5Button.Size = new System.Drawing.Size(20, 21);
+            this.led5Button.TabIndex = 24;
+            this.led5Button.UseVisualStyleBackColor = false;
+            this.led5Button.MouseEnter += new System.EventHandler(this.led5Button_Hover);
             // 
-            // button21
+            // led8Button
             // 
-            this.button21.BackColor = System.Drawing.Color.Red;
-            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button21.FlatAppearance.BorderSize = 2;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Location = new System.Drawing.Point(200, 4);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(20, 21);
-            this.button21.TabIndex = 23;
-            this.button21.UseVisualStyleBackColor = false;
+            this.led8Button.BackColor = System.Drawing.Color.Red;
+            this.led8Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led8Button.FlatAppearance.BorderSize = 2;
+            this.led8Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led8Button.Location = new System.Drawing.Point(200, 4);
+            this.led8Button.Name = "led8Button";
+            this.led8Button.Size = new System.Drawing.Size(20, 21);
+            this.led8Button.TabIndex = 23;
+            this.led8Button.UseVisualStyleBackColor = false;
+            this.led8Button.MouseEnter += new System.EventHandler(this.led8Button_Hover);
             // 
-            // button17
+            // led4Button
             // 
-            this.button17.BackColor = System.Drawing.Color.Red;
-            this.button17.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button17.FlatAppearance.BorderSize = 2;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Location = new System.Drawing.Point(96, 4);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(20, 21);
-            this.button17.TabIndex = 23;
-            this.button17.UseVisualStyleBackColor = false;
+            this.led4Button.BackColor = System.Drawing.Color.Red;
+            this.led4Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led4Button.FlatAppearance.BorderSize = 2;
+            this.led4Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led4Button.Location = new System.Drawing.Point(96, 4);
+            this.led4Button.Name = "led4Button";
+            this.led4Button.Size = new System.Drawing.Size(20, 21);
+            this.led4Button.TabIndex = 23;
+            this.led4Button.UseVisualStyleBackColor = false;
+            this.led4Button.MouseEnter += new System.EventHandler(this.led4Button_Hover);
             // 
-            // button2
+            // led3Button
             // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(70, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(20, 21);
-            this.button2.TabIndex = 22;
-            this.button2.UseVisualStyleBackColor = false;
+            this.led3Button.BackColor = System.Drawing.Color.Red;
+            this.led3Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led3Button.FlatAppearance.BorderSize = 2;
+            this.led3Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led3Button.Location = new System.Drawing.Point(70, 4);
+            this.led3Button.Name = "led3Button";
+            this.led3Button.Size = new System.Drawing.Size(20, 21);
+            this.led3Button.TabIndex = 22;
+            this.led3Button.UseVisualStyleBackColor = false;
+            this.led3Button.MouseEnter += new System.EventHandler(this.led3Button_Hover);
             // 
-            // button3
+            // led2Button
             // 
-            this.button3.BackColor = System.Drawing.Color.Red;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button3.FlatAppearance.BorderSize = 2;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(44, 4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(20, 21);
-            this.button3.TabIndex = 21;
-            this.button3.UseVisualStyleBackColor = false;
+            this.led2Button.BackColor = System.Drawing.Color.Red;
+            this.led2Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led2Button.FlatAppearance.BorderSize = 2;
+            this.led2Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led2Button.Location = new System.Drawing.Point(44, 4);
+            this.led2Button.Name = "led2Button";
+            this.led2Button.Size = new System.Drawing.Size(20, 21);
+            this.led2Button.TabIndex = 21;
+            this.led2Button.UseVisualStyleBackColor = false;
+            this.led2Button.MouseEnter += new System.EventHandler(this.led2Button_Hover);
             // 
-            // button1
+            // led1Button
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(18, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(20, 21);
-            this.button1.TabIndex = 20;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(376, 266);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(255, 54);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 27;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.OnGrayScaleClick);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(376, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(255, 260);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.OnColorWheel);
+            this.led1Button.BackColor = System.Drawing.Color.Red;
+            this.led1Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.led1Button.FlatAppearance.BorderSize = 2;
+            this.led1Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.led1Button.Location = new System.Drawing.Point(18, 4);
+            this.led1Button.Name = "led1Button";
+            this.led1Button.Size = new System.Drawing.Size(20, 21);
+            this.led1Button.TabIndex = 20;
+            this.led1Button.UseVisualStyleBackColor = false;
+            this.led1Button.MouseEnter += new System.EventHandler(this.led1Button_Hover);
             // 
             // Form1
             // 
@@ -784,10 +807,10 @@
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panelSecretaria.ResumeLayout(false);
-            this.ledstripPanel.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ledstripPanel.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -819,29 +842,29 @@
         private System.Windows.Forms.Button okButton;
         private System.Windows.Forms.Panel ledstripPanel;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button button30;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button led23Button;
+        private System.Windows.Forms.Button led19Button;
+        private System.Windows.Forms.Button led22Button;
+        private System.Windows.Forms.Button led18Button;
+        private System.Windows.Forms.Button led21Button;
+        private System.Windows.Forms.Button led17Button;
+        private System.Windows.Forms.Button led20Button;
+        private System.Windows.Forms.Button led16Button;
+        private System.Windows.Forms.Button led15Button;
+        private System.Windows.Forms.Button led14Button;
+        private System.Windows.Forms.Button led13Button;
+        private System.Windows.Forms.Button led12Button;
+        private System.Windows.Forms.Button led11Button;
+        private System.Windows.Forms.Button led7Button;
+        private System.Windows.Forms.Button led10Button;
+        private System.Windows.Forms.Button led6Button;
+        private System.Windows.Forms.Button led9Button;
+        private System.Windows.Forms.Button led5Button;
+        private System.Windows.Forms.Button led8Button;
+        private System.Windows.Forms.Button led4Button;
+        private System.Windows.Forms.Button led3Button;
+        private System.Windows.Forms.Button led2Button;
+        private System.Windows.Forms.Button led1Button;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

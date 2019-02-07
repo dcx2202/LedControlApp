@@ -65,7 +65,6 @@ void loop()
     stringComplete = false;
 
     getInfo();
-    Serial.println(commandString);
 
     //Color Picker - Leds acendem todos com a cor escolhida
     if(commandString.equals("C"))
